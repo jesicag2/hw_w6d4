@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* padding: 10px */
+}
+
+/* Navigation */
+nav {
+    background-color: #691727;
+}
+
+nav a {
+    color: #f8f4e8;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background-image: url('./media/onepiece_banner.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #691727;
+}
+
+.header {
+    padding: 70px;
+    font-size: 30px;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    background-color: #691727;
+    color: #f8f4e8;
+}
+
+.footer{
+    padding: 0px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li {
+    padding: 10px;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+    nav ul,
+    footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
